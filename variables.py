@@ -5,6 +5,7 @@ integer 	= 1;
 real		= 1.1
 realMaior	= 1.123456789
 
+print('Começando com frase');
 print('frase: ', frase);
 print('inteiro: ', integer);
 print('real: ', real);
