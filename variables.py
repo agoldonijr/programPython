@@ -11,3 +11,8 @@ print('inteiro: ', integer);
 print('real: ', real);
 print('real maior: ', realMaior);
 
+print('Podemos fazer um inteiro virar uma frase')
+print('Integer: ', integer)
+integer 	= 'eh nois aqui tbm'
+print('Integer de novo: ', integer)
+
