@@ -7,4 +7,10 @@ def fib(n):
 		print (a, end=' ')
 		a,b = b, a+b
 	print()
-fib(2000)
+#fib(2000)
+
+
+def ask_ok (prompt, retries=4, reminder='Try againg'):
+	while True:
+		ok = input(prompt)
+		if ok in ('y', 'yes')
