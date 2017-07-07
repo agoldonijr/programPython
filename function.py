@@ -1,6 +1,5 @@
 #!/bin/python3
 
-
 def fib(n):
 	a,b = 0,1
 	while(a<n):
@@ -9,8 +8,12 @@ def fib(n):
 	print()
 #fib(2000)
 
-
 def ask_ok (prompt, retries=4, reminder='Try againg'):
-	while True:
+	while prompt != 'y' or prompt != 'yes':
 		ok = input(prompt)
-		if ok in ('y', 'yes')
+		if ok in ('y', 'yes'):
+			print("vc digitou ok");
+		else:
+			print(reminder)
+
+ask_ok()
