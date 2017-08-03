@@ -6,6 +6,16 @@ dado = []
 cabecalho = []
 option = []
 
+
+
+##plot de graficos 
+
+#funcao de filtro passa baixa
+def passa_banda():
+
+#funcao de filtro passa banda
+def passa_baixa():
+
 #lendo header do arquivo
 def read_reader(name_file):
 	f = open(name_file, "r")
