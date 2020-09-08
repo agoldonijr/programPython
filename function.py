@@ -15,5 +15,4 @@ def ask_ok (prompt, retries=4, reminder='Try againg'):
 			print("vc digitou ok");
 		else:
 			print(reminder)
-
 ask_ok()
